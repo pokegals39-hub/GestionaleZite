@@ -25,7 +25,7 @@ jobs:
         with:
           node-version: "20"
       - name: Install dependencies
-        run: npm install && npm install --no-save vite @vitejs/plugin-react
+        run: npm install && npm install --no-save vite @vitejs/plugin-react tailwindcss postcss autoprefixer
       - name: Build
         run: npx vite build --config vite.github.config.ts
       - name: Setup Pages
