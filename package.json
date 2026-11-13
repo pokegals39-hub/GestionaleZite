@@ -1,0 +1,15 @@
+{
+  "name": "gestione-palestra",
+  "private": true,
+  "workspaces": [
+    "apps/*",
+    "automations/*",
+    "packages/*"
+  ],
+  "scripts": {
+    "typecheck": "zitejs check"
+  },
+  "dependencies": {
+    "zitejs": "0.10.2"
+  }
+}
